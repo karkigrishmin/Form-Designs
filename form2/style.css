@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  background: url("/form2/landscape-5009868_1920.jpg") no-repeat;
+}
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#login-box {
+  width: 400px;
+  max-height: 1000px;
+  background: #fff;
+  margin: 100px auto;
+  /* padding: 50px; */
+  border-radius: 8px;
+}
+.bg {
+  width: 100%;
+  background-color: #333;
+  height: 10vh;
+}
+.wrapper {
+  padding: 50px;
+}
+h2 {
+  font-size: 1.2em;
+  color: #3c3e42;
+}
+h2 span {
+  color: #d15778;
+}
+.text-box {
+  width: 100%;
+  padding: 9px 0;
+}
+input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #333;
+  border: 2px solid #e2e2e2;
+  margin: ;
+}
+
+.btn {
+  background: #ff2f63;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border: 2px solid #ea819e;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0 20px;
+}
+p {
+  font-size: 0.8rem;
+  color: #66686a;
+}
+.bottom-para {
+  text-align: center;
+  color: #66686a;
+}
+a {
+  color: #66686a;
+}
