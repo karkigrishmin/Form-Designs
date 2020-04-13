@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #9633ff;
+  line-height: 1.4;
+  font-family: "Roboto", sans-serif;
+}
+h3 {
+  padding: 2.5rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+  color: #6e1ce4;
+}
+#login-box {
+  width: 400px;
+  height: 500px;
+  background: #fff;
+  margin: auto;
+  position: relative;
+  top: 5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+#form {
+  /* text-align: center; */
+  padding: 1rem;
+  margin: 0 1rem;
+  margin-top: -1.5rem;
+}
+.textbox {
+  padding: 0.5rem 0;
+}
+.text {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border: 2px solid #f4f4f4;
+  border-radius: 10px;
+}
+input[type="checkbox"] {
+}
+.check {
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+input:placeholder-shown {
+  padding-left: 4rem;
+}
+i {
+  position: absolute;
+  color: #6e1ce4;
+  text-align: center;
+  padding: 1rem;
+}
+.btn {
+  width: 60%;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  background: #4a07ee;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+  font-weight: 550;
+  cursor: pointer;
+}
+p,
+span {
+  color: #95a1d8;
+}
